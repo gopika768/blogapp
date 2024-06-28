@@ -1,0 +1,65 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST TITLE"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Title of the post"
+        android:id="@+id/tid"
+        android:drawableLeft="@drawable/baseline_view_headline_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCRIPTION"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Discription"
+        android:id="@+id/disid"
+        android:drawableLeft="@drawable/baseline_edit_note_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PREPARED BY"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/pid"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="POST"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/postid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="BACK TO MENU"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/backmenuid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/logid"/>
+
+</LinearLayout>

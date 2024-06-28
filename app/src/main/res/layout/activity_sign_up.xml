@@ -1,0 +1,73 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/uid"
+        android:hint="Enter UserName"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NUMBER"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/cid"
+        android:hint="Enter Mobile Number"
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_phone_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/pid"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRMPASSWORD"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/conid"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:text="SIGNUP"
+        android:background="#38B1E7"
+        android:id="@+id/rid"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:text="BACK TO SIGNIN"
+        android:background="#38B1E7"
+        android:id="@+id/bmid"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

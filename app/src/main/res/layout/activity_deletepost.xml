@@ -1,0 +1,45 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE BLOG"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter  Title of the blog"
+        android:id="@+id/tid"
+        android:drawableLeft="@drawable/baseline_view_headline_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="DELETE"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/deleteid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="BACK TO MENU"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/backmenuid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37A5FB"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/logid"/>
+
+
+</LinearLayout>

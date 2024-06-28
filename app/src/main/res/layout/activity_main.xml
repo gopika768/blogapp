@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:gravity="center"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ <ImageView
+     android:layout_width="200px"
+     android:layout_height="200px"
+     android:background="@drawable/im"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="BLOG APP"
+     android:textAlignment="center"
+     android:textSize="60px"/>
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="USERNAME"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+  android:hint="Enter Your Username"
+     android:id="@+id/uname"
+     android:drawableLeft="@drawable/baseline_person_24"/>
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="PASSWORD"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Enter Your Password"
+     android:inputType="textPassword"
+     android:id="@+id/pass"
+     android:drawableLeft="@drawable/baseline_lock_24"/>
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#0B23F0"
+     android:text="SIGN IN"
+     android:textColor="@color/white"
+     android:layout_margin="30px"
+     android:id="@+id/sinid"/>
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#0B23F0"
+     android:text="SIGN UP"
+     android:textColor="@color/white"
+     android:layout_margin="30px"
+     android:id="@+id/supid"/>
+</LinearLayout>
